@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superflo FAQ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .skeuomorphic-button {
+            background: linear-gradient(to bottom, #444444, #222222);
+            border: 1px solid #000000;
+            box-shadow: 0 1px 0 #666666 inset, 0 2px 3px rgba(0,0,0,0.3);
+            text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
+            transition: all 0.2s;
+            color: white;
+        }
+        .skeuomorphic-button:hover {
+            background: linear-gradient(to bottom, #333333, #111111);
+        }
+        .skeuomorphic-button:active {
+            box-shadow: 0 1px 0 #666666 inset, 0 1px 2px rgba(0,0,0,0.3);
+            transform: translateY(1px);
+        }
+        .highlight {
+            transition: all 0.3s ease;
+        }
+        .faq-item:hover .highlight {
+            font-weight: bold;
+            color: #4A4A4A;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body class="font-sans">
+    <nav class="sticky top-0 z-10 bg-white border-b border-gray-200">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-3">
+                <div class="text-xl font-bold">Superflo</div>
+                <div class="space-x-8">
+                    <a href="#" class="text-black no-underline">Home</a>
+                    <a href="#" class="text-black no-underline">Features</a>
+                    <a href="#" class="text-black no-underline">Pricing</a>
+                    <a href="#" class="text-black no-underline">About</a>
+                    <a href="#" class="text-black no-underline">Contact</a>
+                </div>
+                <button class="skeuomorphic-button text-white px-4 py-2 rounded-full cursor-pointer flex items-center space-x-2" accesskey="g">
+                    <span>Get Started</span>
+                    <span class="bg-white text-black text-xs px-1 rounded">G</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto py-16 mt-12">
+            <p class="text-black text-sm font-medium mb-4">FAQ</p>
+            <h1 class="text-4xl font-bold mb-4">Frequently Asked Questions</h1>
+            <p class="text-gray-600 mb-16">Everything you need to know about our platform.</p>
+
+            <div class="space-y-8 mt-16">
+                <div class="flex border-b pb-6 faq-item">
+                    <div class="w-1/2 pr-4">
+                        <div class="font-medium text-lg">What is Superflo?</div>
+                    </div>
+                    <div class="w-1/2 pl-4">
+                        <div class="text-gray-600">Superflo is a <span class="highlight">powerful workflow automation platform</span> designed to streamline your business processes and boost productivity.</div>
+                    </div>
+                </div>
+
+                <div class="flex border-b pb-6 faq-item">
+                    <div class="w-1/2 pr-4">
+                        <div class="font-medium text-lg">How can Superflo benefit my business?</div>
+                    </div>
+                    <div class="w-1/2 pl-4">
+                        <div class="text-gray-600">Superflo helps you <span class="highlight">automate repetitive tasks, reduce errors, and save time</span>, allowing your team to focus on high-value activities.</div>
+                    </div>
+                </div>
+
+                <div class="flex border-b pb-6 faq-item">
+                    <div class="w-1/2 pr-4">
+                        <div class="font-medium text-lg">Is Superflo suitable for small businesses?</div>
+                    </div>
+                    <div class="w-1/2 pl-4">
+                        <div class="text-gray-600">Absolutely! Superflo is <span class="highlight">scalable and adaptable to businesses of all sizes</span>, from startups to large enterprises.</div>
+                    </div>
+                </div>
+
+                <div class="flex border-b pb-6 faq-item">
+                    <div class="w-1/2 pr-4">
+                        <div class="font-medium text-lg">What kind of integrations does Superflo offer?</div>
+                    </div>
+                    <div class="w-1/2 pl-4">
+                        <div class="text-gray-600">Superflo integrates with <span class="highlight">popular tools like Slack, Trello, Google Workspace, and many more</span>. We're constantly adding new integrations.</div>
+                    </div>
+                </div>
+
+                <div class="flex border-b pb-6 faq-item">
+                    <div class="w-1/2 pr-4">
+                        <div class="font-medium text-lg">How secure is my data with Superflo?</div>
+                    </div>
+                    <div class="w-1/2 pl-4">
+                        <div class="text-gray-600">We take security seriously. Superflo uses <span class="highlight">bank-level encryption and complies with GDPR and other data protection regulations</span>.</div>
+                    </div>
+                </div>
+
+                <div class="flex border-b pb-6 faq-item">
+                    <div class="w-1/2 pr-4">
+                        <div class="font-medium text-lg">Do I need coding skills to use Superflo?</div>
+                    </div>
+                    <div class="w-1/2 pl-4">
+                        <div class="text-gray-600">Not at all! Superflo features a <span class="highlight">user-friendly, drag-and-drop interface</span> that requires no coding knowledge.</div>
+                    </div>
+                </div>
+
+                <div class="flex border-b pb-6 faq-item">
+                    <div class="w-1/2 pr-4">
+                        <div class="font-medium text-lg">What kind of customer support does Superflo provide?</div>
+                    </div>
+                    <div class="w-1/2 pl-4">
+                        <div class="text-gray-600">We offer <span class="highlight">24/7 email support, live chat during business hours, and comprehensive documentation</span> to help you get the most out of Superflo.</div>
+                    </div>
+                </div>
+
+                <div class="flex border-b pb-6 faq-item">
+                    <div class="w-1/2 pr-4">
+                        <div class="font-medium text-lg">Can I try Superflo before purchasing?</div>
+                    </div>
+                    <div class="w-1/2 pl-4">
+                        <div class="text-gray-600">Yes, we offer a <span class="highlight">14-day free trial with full access to all features</span>. No credit card required to start.</div>
+                    </div>
+                </div>
+
+                <div class="flex border-b pb-6 faq-item">
+                    <div class="w-1/2 pr-4">
+                        <div class="font-medium text-lg">How often does Superflo release updates?</div>
+                    </div>
+                    <div class="w-1/2 pl-4">
+                        <div class="text-gray-600">We push <span class="highlight">minor updates weekly and major feature releases monthly</span>. All updates are automatically available to our users.</div>
+                    </div>
+                </div>
+
+                <div class="flex border-b pb-6 faq-item">
+                    <div class="w-1/2 pr-4">
+                        <div class="font-medium text-lg">Is there a limit to how many workflows I can create?</div>
+                    </div>
+                    <div class="w-1/2 pl-4">
+                        <div class="text-gray-600">Our plans offer <span class="highlight">different workflow limits. Enterprise plans have unlimited workflows</span>. Check our pricing page for details.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'g' || event.key === 'G') {
+                window.open('https://calendly.com/jackhartley/landing-page-discovery', '_blank');
+            }
+        });
+    </script>
+
+    <footer class="bg-white border-t border-gray-200 mt-16 py-12">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
+                <div class="col-span-1">
+                    <div class="flex items-center space-x-2">
+                        <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span class="text-xl font-bold">Superflo</span>
+                    </div>
+                    <p class="text-sm text-gray-500 mt-2">Designed in europe.</p>
+                </div>
+                <div class="col-span-1">
+                    <h3 class="font-semibold mb-4">Product</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-600 hover:text-black text-sm">Features</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-black text-sm">Integrations</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-black text-sm">Pricing</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-black text-sm">Changelog</a></li>
+                    </ul>
+                </div>
+                <div class="col-span-1">
+                    <h3 class="font-semibold mb-4">Company</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-600 hover:text-black text-sm">About Us</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-black text-sm">Careers</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-black text-sm">Press</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-black text-sm">Partners</a></li>
+                    </ul>
+                </div>
+                <div class="col-span-1">
+                    <h3 class="font-semibold mb-4">Resources</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-600 hover:text-black text-sm">Blog</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-black text-sm">Help Center</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-black text-sm">Community</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-black text-sm">Webinars</a></li>
+                    </ul>
+                </div>
+                <div class="col-span-1">
+                    <h3 class="font-semibold mb-4">Legal</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-600 hover:text-black text-sm">Privacy Policy</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-black text-sm">Terms of Service</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-black text-sm">Cookie Settings</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-black text-sm">GDPR</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-12 pt-8 border-t border-gray-200 flex justify-between items-center">
+                <p class="text-sm text-gray-500">Copyright © 2024 Superflo. All rights reserved.</p>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-400 hover:text-gray-600">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-gray-600">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-gray-600">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-gray-600">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // ... (previous script content remains unchanged) ...
+    </script>
+</body>
+</html>
